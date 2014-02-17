@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<stdlib.h>
 #include <math.h>
 
 int main(){
@@ -13,7 +12,7 @@ int main(){
     printf("Digite a altura:");
     scanf("%f", &altura);
 
-   volume = 3.14 * pow(raio, 2) * altura;
+     volume = 3.14 * pow(raio, 2) * altura;
 
     printf("O volume da caixa d agua e %f", volume);
 
