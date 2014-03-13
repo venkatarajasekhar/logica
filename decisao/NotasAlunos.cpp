@@ -8,13 +8,13 @@
  	if(nota <= 3){
  		printf("Conceito E:");
  	}
-    if (nota > 3 && nota <= 5){
+    if (nota >= 3 && nota <= 5){
  		printf("Conceito D:");
  	}
-    if (nota > 7 && nota <= 7){
+    if (nota >= 7 && nota <= 7){
  		printf("Conceito C:");
  	}
- 	if (nota > 8 && nota <= 9){
+ 	if (nota >= 8 && nota <= 9){
  		printf("Conceito B:");
  	}
 	if (nota >= 10){
